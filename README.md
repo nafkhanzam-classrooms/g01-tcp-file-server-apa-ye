@@ -4,7 +4,7 @@
 ## Anggota Kelompok
 | Nama           | NRP        | Kelas     |
 | ---            | ---        | ----------|
-|                |            |           |
+| Farrel Prastita Ramadhan               |    5025241219        |   D        |
 |                |            |           |
 
 ## Link Youtube (Unlisted)
