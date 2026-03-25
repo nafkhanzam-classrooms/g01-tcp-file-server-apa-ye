@@ -502,3 +502,45 @@ chunk = client.recv(1024)
 
 Client menerima data dari server secara bertahap sampai menemukan tanda EOF.
 ## Screenshot Hasil
+
+### server-sync.py :
+
+<img width="1633" height="447" alt="image" src="https://github.com/user-attachments/assets/604a37ef-3b8c-46c1-ae8d-25d110bab9a5" />
+
+server hanya dapat terhubung dengan 1 client saja karena terkena blocking 
+
+<img width="1649" height="234" alt="image" src="https://github.com/user-attachments/assets/8f84cf12-2b03-40f7-9d3d-82eff85d30f4" />
+
+fitur /list untuk server-sync 
+
+### server-select.py :
+
+<img width="1647" height="458" alt="image" src="https://github.com/user-attachments/assets/8af5346e-c930-44c0-9ae9-445ebcd8cba5" />
+
+server sudah bisa terhubung ke 2 client 
+
+<img width="506" height="235" alt="image" src="https://github.com/user-attachments/assets/a506d951-0422-4127-8d04-1eff3f5afb5b" />
+
+<img width="534" height="218" alt="image" src="https://github.com/user-attachments/assets/6783aed4-0591-42f6-b936-35fcc9f242fd" />
+
+
+fitur /list untuk kedua client 
+
+### server-poll.py :
+
+<img width="623" height="166" alt="image" src="https://github.com/user-attachments/assets/843b8cd9-4654-4e6c-a7d7-d22511a8b206" />
+
+Poll tidak dapat dijalankan di Windows karena merupakan syscall yang hanya tersedia di sistem Unix seperti Linux
+
+### server-thread.py :
+
+<img width="591" height="120" alt="image" src="https://github.com/user-attachments/assets/2fb06fdf-7dd3-498c-9e50-1ce01e4db035" />
+
+terhubung ke 2 client 
+
+<img width="1452" height="397" alt="image" src="https://github.com/user-attachments/assets/69ff7264-b085-4809-875c-6d4c1c45005d" />
+
+<img width="779" height="236" alt="image" src="https://github.com/user-attachments/assets/c41dfcba-5d69-4ea3-8888-4918da68f53e" />
+
+
+fitur upload , list dan download untuk srver thread da memberikan broadcast ke semua client 
